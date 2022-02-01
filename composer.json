@@ -1,0 +1,29 @@
+{
+    "name": "abdel/livewire-crud-masterclass",
+    "description": "Livewire CRUD patterns — from wire:click to full table with search, sort, pagination",
+    "type": "project",
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^9.0",
+        "livewire/livewire": "^2.8",
+        "laravel/sanctum": "^2.14",
+        "laravel/tinker": "^2.7"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.9",
+        "pestphp/pest": "^1.21",
+        "pestphp/pest-plugin-laravel": "^1.1",
+        "laravel/sail": "^1.0"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "test": "@php artisan test"
+    }
+}
